@@ -37,7 +37,7 @@
     При установленном флажке должны быть видны товары которые есть в наличии
   prerequisites:
     Открыта страница с товрами
-  test-data: -
+  test-data: None
   steps:
     - Устанавливаем флажок на "В наличии/In stock"
   expected-result: |
@@ -49,7 +49,7 @@
     При открытии бургера видны два варианта с флагами
   prerequisites:
     Открыта главная страница
-  test-data: -
+  test-data: None
   steps:
     - Открыть бургер "Язык"
   expected-result: |
